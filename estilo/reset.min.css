@@ -1,0 +1,85 @@
+/* Reset de margem, preenchimento e borda */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Elementos de bloco HTML5 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Configurações de corpo */
+body {
+    line-height: 1;
+    font-size: 100%; /* Evitar variações na fonte padrão entre navegadores */
+    font-family: Arial, sans-serif; /* Utilizar uma fonte neutra */
+}
+
+/* Listas */
+ol, ul {
+    list-style: none;
+}
+
+/* Elementos de tabela */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remover quotes de blockquotes */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* Remover sublinhado de links */
+a {
+    text-decoration: none;
+}
+
+/* Remover texto de contorno em foco acessível para click em WebKit */
+a:focus {
+    outline: none;
+}
+
+/* Corrigir interline no Firefox */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0; /* Alinhar com a inicialização do estilo */
+}
+
+/* Remover o contorno padrão em navegadores WebKit */
+button, input {
+    border: none;
+    outline: none;
+}
+
+/* Remover a seta interna no IE10+ em inputs de número */
+input::-ms-clear {
+    display: none;
+}
+
+/* Corrigir padding inconsistente em File Inputs */
+input[type="file"] {
+    padding: 0;
+}
+
+/* Garantir consistência de tamanho em todos os browsers */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+/* Evitar que textos de formulários sejam afetados por estilos de página anteriores */
+textarea {
+    overflow: auto;
+    resize: vertical; /* Permitir redimensionamento vertical e não horizontal */
+}

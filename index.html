@@ -1,181 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imgs/icons8-livro-aberto-16.png" type="image/x-icon">
-    <link rel="stylesheet" href="./estilo/header.css">
-    <title>Vakursos</title>
+    <link rel="stylesheet" href="estilo/reset.min.css">
+    <link rel="stylesheet" href="estilo/default.css">
+   
+    <title>Didática</title>
 </head>
+
 <body>
-    <div id="logo_header">
-        <img src="imgs/logo.png">
-        <p>VAKCURSOS</p>
-    </div>
-    <header>
-      <div id="navegacao_header">
-        <div class="header__search">
-            <img class="imgin" src="imgs/icons8-pesquisar-30.png">
-            <input id="search-input" type="text" maxlength="800" placeholder="Falar com um Consultor">
-          </div>
-         <div class="header__login">
-            <button class="login_aluno">Área do Aluno</button>
-         </div>
-       </div>
-    
-        <nav>
-            <ul>
-                <li> Início
-                <li> Pós-Graduação
-                <li> Graduação
-                <li> Cursos
-                <li> Quem Somos
-                <li> Blog
-                <li> Fale Conosco     
-            </ul>
-        </nav>
+    <div id="alcont">
+        <header>
+            <div class="logo_header">
+                <img id="logo" src="imgs/header/logo-prog-didatica.png">
 
-        <div class="apresentacao">
-             <h1>Estude sem Fronteiras!</h1>
-             <h2>Conquiste seu diploma com nossos cursos EAD.</h2>
-
-             <button>inscreva-se agora <img class="imgin" src="imgs/icons8-seta-longa-à-direita-30.png"></button>
-             <img src="imgs/people-like.png">
-             <img src="imgs/apresentacaocorte.jpg">
             </div>
-    </header>
-     
-    <main>
-        <h2>Categorias De Cursos</h2>
-        <p>Explore nossos categorias de cursos</p>
+            <div id="navegacao_header" class="logo_header">
+                <img id="lupa" src="imgs/header/icons8-pesquisar-30.png"></img>
+                <button id="btnconsultor" class="botao">Fale com um Consultor</button>
 
+                <div id="header__login">
+                    <button class="login_aluno, botao">Área do Aluno</button>
+                </div>
+            </div>
 
-        <ul>
-            <img src="imgs/icons8-pintura-30.png">
-                <li>Artes</li>
-            </img>
-            <img src="imgs/icons8-programa-50.png">
-                <li>Tecnologia</li>
-            </img>
-            <img src="imgs/icons8-chapéu-de-chef-100.png">
-                <li>Culinária</li>
-            </img>
-            <img src="imgs/icons8-filme-50.png">
-                <li>Cinema</li>
-            </img>
-            <img src="imgs/icons8-filmadora-profissional-48.png">
-                <li>Visual</li>
-            </img>
-            <img src="imgs/icons8-gráfico-positivo-50.png">
-                <li>Dados</li>
-            </img>
-            <img src="imgs/icons8-loja-50.png">
-                <li>Comércio</li>
-            </img>
-            <img src="imgs/icons8-restituição-2-50.png">
-                <li>Financeiro</li>
-            </img>
-            <img src="imgs/icons8-heart-with-pulse-50.png">
-                <li>Saúde</li>
-            </img>
-            <img src="imgs/icons8-mind-map-50.png">
-                <li>Educação</li>
-            </img>
-        </ul>
-  
-        <h1>Cursos mais Populares</h1>
-        <p>Ensino a distância mais vendidos</p>
+            <nav>
+                <ul id="listaul">
+                    <li> Início
+                    <li> Pós-Graduação
+                    <li> Graduação
+                    <li> Cursos
+                    <li> Quem Somos
+                    <li> Blog
+                    <li> Fale Conosco
+                </ul>
+            </nav>
 
-      <div>
-        <H1>CARDS EM ARRAY CURSOS POPULARES</H1>
-      </div>
+            <div class="apresentacao">
+                <div id="cont_apre">
 
+                    <h1 id="h1_apre">Estude sem Fronteiras!</h1>
+                    <h2 id="h2_apre">Conquiste seu diploma <br> com nossos cursos EAD.</h2>
+                    <div class="btneimg_apre">
+                        <button id="btn_apre" class="botao">inscreva-se agora <img id="seta_apre"
+                                src="imgs/header/icons8-seta-longa-à-direita-30.png"></button>
+                        <div>
+                            <img id="pessoasav" src="./imgs/header/image-removebg-preview (1).png">
+                        </div>
+                        <img id="jovem_apre" src="imgs/header/personagem2.webp">
+                    </div>
+                </div>
+        </header>
+
+        <main>
+            <div class="areas_main">
+                <h2>Categorias De Cursos</h2>
+                <p class="p_explore" >Explore nossas categorias de cursos</p>
+
+                <div id="blocoareas_main">
+                    <div class="cardarea_main">
+                        <div class="contcardarea_main">
+                            <img src="imgs/incons areas/icons8-mind-map-50.png" alt="icon Educação">
+                            <li>Educação</li>
+                            <p>16 Cursos</p>
+                        </div>
+                    </div>
+                    <div class="cardarea_main">
+                        <div class="contcardarea_main">
+                            <img src="imgs/incons areas/icons8-programa-50.png" alt="icon tecnologia">
+                            <li>Tecnologia</li>
+                            <p> 23 Cursos</p>
+                        </div>
+                    </div>
+                    <div class="cardarea_main">
+                        <div class="contcardarea_main">
+                            <img src="imgs/incons areas/icons8-heart-with-pulse-50.png" alt="icon saude">
+                            <li>Saúde</li>
+                            <p>9 Cursos</p>
+                        </div>
+                    </div>
+                    <div class="cardarea_main">
+                        <div class="contcardarea_main">
+                            <img src="imgs/incons areas/icons8-restituição-2-50.png" alt="icon financas">
+                            <li>finanças</li>
+                            <p>14 Cursos</p>
+                        </div>
+                    </div>
+                    <div class="cardarea_main">
+                        <div class="contcardarea_main">
+                            <img src="imgs/incons areas/icons8-gráfico-positivo-50.png" alt="icon dados">
+                            <li>Dados</li>
+                            <p> 11 Cursos</p>
+                        </div>
+                    </div>
+                    <div class="cardarea_main">
+                        <div class="contcardarea_main">
+                            <img src="imgs/incons areas/icons8-pintura-50.png" alt="icon pintura">
+                            <li>Artes</li>
+                            <p> 6 Cursos</p>
+                        </div>
+                    </div>
+                    <div class="cardarea_main">
+                        <div class="contcardarea_main">
+                            <img src="imgs/incons areas/icons8-filme-50.png" alt="icon cinema">
+                            <li>Cinema</li>
+                            <p>8 Cursos</p>
+                        </div>
+                    </div>
+                    <div class="cardarea_main">
+                        <div class="contcardarea_main">
+                            <img src="imgs/incons areas/icons8-filmadora-profissional-48.png" alt="icon visual">
+                            <li>Visual</li>
+                            <p>10 Cursos</p>
+                        </div>
+                    </div>
+                    <div class="cardarea_main">
+                        <div class="contcardarea_main">
+                            <img src="imgs/incons areas/icons8-chapéu-de-chef-50.png" alt="icon Culinária">
+                            <li>Gastronomia</li>
+                            <p>5 Cursos</p>
+                        </div>
+                    </div>
+                    <div class="cardarea_main">
+                        <div class="contcardarea_main">
+                            <img src="imgs/incons areas/icons8-loja-50.png" alt="icon comercio">
+                            <li>Comércio</li>
+                            <p>20 Cursos</p>
+                        </div>
+                    </div>
+
+    
+                <div id="containercursosp" class="cursospopu_main" >
+                    <div id="continicial">
+                        <h1>Cursos mais Populares</h1>
+                        <p>Ensino a distância mais vendidos</p>
+                        <button class="btntdscursos">Todos os Cursos</button>
+                    </div>
+                </div>
+                <img id="imgestudos" src="imgs/estudos.webp">
+<div id="beneficios">
+                    <h1>Com a Educação, você desbloqueia <br> portas de oportunidades por meio do <br> estudo
+                        e do conhecimento.</h1>
+                    <p>Desperte o seu potencial: Explore as oportunidades com a Educação</p>
+                    <ul>
+                        <li>Certificado</li>
+                        <li>Cursos nota 5 e-MEC</li>
+                        <li>Pós-Graduação</li>
+                        <li>Plano de Carreira</li>
+                    </ul>
+    
+                    <button id="btnbeneficios" class="botao">Conheça Nossos Cursos </button>
+</div>
+
+    
              
-        <img src="imgs/estudos.webp">
-        <h1>Com a Educação, você desbloqueia portas de oportunidades por meio do estudo e do conhecimento.</h1>
-        <p>Desperte o seu potencial: Explore as oportunidades com a Educação</p>
-        <ul>
-            <li>Certificado</li>
-            <li>Cursos nota 5 e-MEC</li>
-            <li>Pós-Graduação</li>
-            <li>lorem</li>
-        </ul>
+                <div id="containeraddrecentes" class="cursosrecen_main">
+                    <div id="contmaisrecentes">
+                        <h1>Adicionados Recentemente</h1>
+                        <p>Ensino a distância mais vendidos</p>
+                        <div class="div_btn" >
+                            <button class="btntdscursos" >Todos os Cursos</button>
+                        </div>
+                    </div>
+                </div>
 
-        <button>inscreva-se agora <img src="imgs/icons8-educação-32.png"> </button>
+               
 
+                <div id="containerfeedbacks" class="feddbackdiv">
+                    <H1>Feedbacks dos Estudantes</H1>
+                    
+                </div>
 
-      
-        <h1>Adicionados Recentemente</h1>
-        <p>Ensino a distância mais vendidos</p>
-   
-        <button>Todos os Cursos</button>
-      <div>
-        <H1>CARDS EM ARRAY ADD RECENTES</H1>
-      </div>
+                <h1>Últimos Artigos</h1>
+                <p>Lorem ipsum dolor capdat setir</p>
 
-       <h1>Adicionados Recentemente</h1>
-        <p>Ensino a distância mais vendidos</p>
-   
-      <div>
-        <H1>CARDS EM ARRAY BENEFICIOS</H1>
-      </div>
+                <button>Todos os Artigos</button>
 
+                <div>
+                    <h1>Cards array artigos</h1>
+                    <div class="card">
 
-      <H1>Feedbacks dos Estudantes</H1>
+                    </div>
 
-      <div>
-        <div>
+                    <div class="card">
 
-        </div>
+                    </div>
 
-        <div>
+                    <div class="card">
 
-        </div>
+                    </div>
+                </div>
+        </main>
 
-        <div>
+        <footer>
+            <div class="divfooter">
+                <h3>lorem ipsum</h3>
+                <li>Contato
+                <li>Sobre nós
+                <li>Blog
+            </div>
+            <div class="divfooter">
 
-        </div>
+                <h3>lorem ipsum</h3>
+                <li>lorem
+                <li>lorem
+                <li>lorem
+                <li>lorem
+            </div>
 
-        <div>
-
-        </div>
-      </div>
-
-      <h1>Últimos Artigos</h1>
-     <p>Lorem ipsum dolor capdat setir</p>
-   
-        <button>Todos os Artigos</button>
-
-        <div>
-            <h1>Cards array artigos</h1>
-        </div>
-    </main>
-     
-    <footer>
-        <h3>lorem ipsum</h3>
-        <li>Contato</li>
-        <li>Sobre nós</li>
-        <li>Blog</li>
-
-        <h3>lorem ipsum</h3>
-        <li>lorem</li>
-        <li>lorem</li>
-        <li>lorem</li>
-        <li>lorem</li>
-
-        <h3>Contatos</h3>
-        <li>Tel:(11)3422-4412</li>
-        <li>Email: contato@vakacuros.com</li>
-
-        icons 
-        <img src="" alt="icon facebook">
-        <img src="" alt="">
-        <img src="" alt="icon insta">
-        <img src="" alt="icon yt">
-    </footer>
+            <div class="divfooter">
+                <h3>Contatos</h3>
+                <li>Tel:(11)3422-4412
+                <li>Email: contato@vakacuros.com
+            </div>
 
 
+            <img src="imgs/footer/icons8-facebook-30.png" alt="icon facebook">
+            <img src="imgs/footer/icons8-twitter-30.png" alt="icon twitter">
+            <img src="imgs/footer/icons8-instagram-30.png" alt="icon insta">
+            <img src="imgs/footer/icons8-youtube-30.png" alt="icon yt">
 
-     <script src="Script/script.js"></script>
+            <p>Copyright © 2024 Didática EAD | Desenvolvido por Valéria-Dev</p>
+        </footer>
+
+    </div>
+
+    <script src="Script/script.js"></script>
 </body>
+
 </html>

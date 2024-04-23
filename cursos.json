@@ -1,0 +1,71 @@
+{
+  "cursosMaisProcurados": [
+    {
+      "nome": "Desenvolvimento Web",
+      "descricao": "Curso abrangente que cobre HTML, CSS e JavaScript para desenvolvimento de websites interativos e responsivos.",
+      "custoMensal": "$150",
+      "imagem": "imgs/imgjson/devweb.jpg"
+    },
+    {
+      "nome": "Ciência de Dados",
+      "descricao": "Aprenda a extrair, analisar e visualizar dados para obter insights valiosos e tomar decisões embasadas.",
+      "custoMensal": "$200",
+      "imagem": "imgs/imgjson/cienciadedados.png"
+    },
+    {
+      "nome": "Machine Learning",
+      "descricao": "Explore algoritmos de machine learning para criar modelos preditivos e automatizar processos de decisão.",
+      "custoMensal": "$250",
+      "imagem": "imgs/imgjson/machine-learning.webp"
+    },
+    {
+      "nome": "Desenvolvimento Mobile",
+      "descricao": "Desenvolva aplicativos para dispositivos móveis iOS e Android utilizando frameworks populares como React Native e Flutter.",
+      "custoMensal": "$180",
+      "imagem": "imgs/imgjson/desenvolvimentmobile.jpg"
+    }
+  ],
+  "cursosMaisRecentes": [
+    {
+      "nome": "Blockchain e Criptomoedas",
+      "descricao": "Explore a tecnologia blockchain e aprenda sobre criptomoedas como Bitcoin e Ethereum.",
+      "custoMensal": "$220",
+      "imagem": "imgs/imgjson/criptomoeda.jpeg"
+    },
+    {
+      "nome": "Análise de Dados para E-commerce",
+      "descricao": "foco em otimizar operações, entender o comportamento dos consumidores, e maximizar as estratégias de marketing digital.",
+      "custoMensal": "$230",
+      "imagem": "imgs/imgjson/analisededadose.webp"
+    },
+    {
+      "nome": "Segurança da Informação",
+      "descricao": "Aprenda a proteger sistemas de computadores e redes contra ataques cibernéticos e violações de dados.",
+      "custoMensal": "$190",
+      "imagem": "imgs/imgjson/segurandadainfo.png"
+    }
+  ],
+
+  "feedbacks": [
+    {
+      "titulo": "Excelente Curso de Programação",
+      "texto": "Participei do curso de Introdução à Programação e fiquei extremamente satisfeito com a qualidade do conteúdo e o profissionalismo dos instrutores. Aprendi muito e já estou aplicando os conhecimentos em meus projetos pessoais.",
+      "nome": "João Silva"
+    },
+    {
+      "titulo": "Aprendizado Valioso em Design Gráfico",
+      "texto": "O curso de Design Gráfico superou todas as minhas expectativas. Os módulos foram bem organizados e ricos em conteúdo prático, que me ajudou a desenvolver uma nova habilidade de maneira eficaz. Recomendo fortemente para quem está começando na área!",
+      "nome": "Maria Fernanda"
+    },
+    {
+      "titulo": "Curso de Marketing Digital - 5 Estrelas",
+      "texto": "Incrível! O curso de Marketing Digital me ofereceu uma visão abrangente sobre estratégias de mercado online. Os casos de estudo e as análises de campanhas reais tornaram o aprendizado dinâmico e muito aplicável.",
+      "nome": "Carlos Eduardo"
+    },
+    {
+      "titulo": "Transformador! Curso de Gestão de Projetos",
+      "texto": "Este curso mudou a forma como vejo a gestão de projetos. As técnicas e ferramentas apresentadas foram extremamente úteis para a minha carreira, elevando minha habilidade de organizar e liderar equipes com eficiência.",
+      "nome": "Ana Beatriz"
+    }
+  ]
+}
