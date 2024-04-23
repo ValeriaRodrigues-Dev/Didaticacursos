@@ -1,133 +1,5 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-body {
-    max-width: 2000px;
-    height: 100vh;
-    width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-    overflow-x: hidden;
-}
-
-#alcont {
-    margin: 15%;
-    margin-top: 0;
-}
-
-#logo {
-    width: 160px;
-}
-
-.logo_header, #btnconsultor, .botao {
-    display: inline-flex;
-    align-items: center;
-}
-.logo_header {
-    
-    padding-top: 50px;
-}
-
-#navegacao_header {
-    margin-left: auto;
-}
-
-#btnconsultor {
-    width: 250px;
-    margin-left: 15px;
-    border-radius: 50px;
-    color: rgb(208, 6, 6);
-    background-color: rgba(251, 135, 135, 0.155);
-    border: none;
-}
-
-.botao {
-    color: white;
-    background-color: rgb(234, 5, 5);
-    height: 50px;
-    width: 200px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: medium;
-}
-
-#lupa {
-    width: 30px;
-    height: 30px;
-    padding-top: 15px;
-}
-
-#listaul {
-    display: flex;
-    padding: 15px;
-    margin-left: -30px;
-}
-
-#listaul,
-li {
-    list-style-type: none;
-    padding: 15px;
-}
-
-.apresentacao {
-    padding: 60px;
-    padding-left: 35%;
-    margin-left: -400px;
-    width: 100vw;
-    height: 450px;
-    font-size: 1.5em;
-    background-color: rgba(8, 97, 67, 0.253);
-}
-
-#cont_apre {
-    font-size: larger;
-}
-
-#h1_apre {
-    color: red;
-}
-
-#h2_apre {
-    color: rgb(30, 30, 102);
-}
-
-.btneimg_apre {
-    margin-left: 100px;
-}
-
-#jovem_apre {
-    margin-left: 40%;
-    margin-top: -25%;
-    max-height: 534px;
-    min-height: min-content;
-    position: absolute;
-}
-
-#seta_apre {
-    width: 20px;
-    height: 25px;
-    padding-bottom: 15px;
-}
-
-#pessoasav {
-    padding-top: 30px;
-}
-
-#btn_apre {
-    margin-top: 92px;
-    padding: 15px;
-    padding-bottom: 3.5%;
-    height: 45px;
-    width: 13%;
-    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.562)
-}
-
 .areas_main {
     padding-top: 60px;
     display: block;
@@ -167,7 +39,8 @@ h2 {
 .cardarea_main:hover {
     cursor: pointer;
     font-weight: bolder;
-    background-color: rgba(0, 0, 0, 0.11);
+    border: none;
+    background-color: rgba(0, 0, 0, 0.13);
 
 }
 
@@ -223,6 +96,7 @@ h2 {
 }
 
 .btntdscursos {
+    display: inline-flex;
     width: 140px;
     height: 50px;
     border-radius: 15px;
@@ -311,20 +185,3 @@ h2 {
   border: 2px solid black;
 } */
 
-footer {
-    width: 100vw;
-    height: 250px;
-    margin-left: -300px;
-    padding: 80px;
-    margin-top: 120PX;
-    background-color: rgba(128, 128, 128, 0.164);
-    columns: 3;
-
-}
-
-.divfooter,
-li {}
-
-.contato {
-    padding-top: 0px;
-}

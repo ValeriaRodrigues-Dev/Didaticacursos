@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+footer {
+    width: 100vw;
+    height: 250px;
+    margin-left: -300px;
+    padding: 80px;
+    margin-top: 120PX;
+    background-color: rgba(128, 128, 128, 0.164);
+    columns: 3;
+
+}
+
+.divfooter,
+li {}
+
+.contato {
+    padding-top: 0px;
+}
