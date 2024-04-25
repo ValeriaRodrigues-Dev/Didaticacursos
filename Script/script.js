@@ -51,8 +51,10 @@
                     carddois.classList.add("carddois");
         
                     const img = document.createElement("img");
+                    img.classList.add("igmrecentes");
                     img.src = curso.imagem;
                     img.alt = curso.nome;
+                   
         
                     const titulo = document.createElement("h2");
                     titulo.textContent = curso.nome;

@@ -147,44 +147,45 @@ main,h2 {
 
 
 .cursosrecen_main {
-    width: 1500px;
-    margin: 50px;
-    
-
+    display: inline-block;
+    width: 1580px; 
+    padding: 150px;
+    margin-left: -200px;
+    font-size: smaller;
 }
 
 #contmaisrecentes {
-    
+       margin-left: 8%;
+       font-size: smaller;
+
 }
 
 
 .carddois {
-    display: inline-block; 
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 100px;
-    margin: 10px;
-    border-radius: 15px;
-    box-sizing: border-box;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.356);
+        display: inline-block; 
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin: 10px;
+        border-radius: 8px;
+        box-sizing: border-box;
 }
 
+.imgrecentes{
+    width: 200px;
+    height: 200px;
+}
 
 
 
 #containerfeedbacks {
-    margin-top: 420px;
-
+    display: flex; 
+ 
 
 }
 
 .feddbackdiv {
-    width: 350px;
-    height: 500px;
-    margin: 15px;
-    border: 2px solid black;
-    background-color: aqua;
+   
 }
 
 /* .cardtres{

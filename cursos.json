@@ -36,13 +36,13 @@
       "nome": "Análise de Dados para E-commerce",
       "descricao": "foco em otimizar operações, entender o comportamento dos consumidores, e maximizar as estratégias de marketing digital.",
       "custoMensal": "$230",
-      "imagem": "imgs/imgjson/analisededadose.webp"
+      "imagem": "imgs/imgjson/analisededadosmini.jpeg"
     },
     {
       "nome": "Segurança da Informação",
       "descricao": "Aprenda a proteger sistemas de computadores e redes contra ataques cibernéticos e violações de dados.",
       "custoMensal": "$190",
-      "imagem": "imgs/imgjson/segurandadainfo.png"
+      "imagem": "imgs/imgjson/segurancadainformacaomini.jpeg"
     }
   ],
 
