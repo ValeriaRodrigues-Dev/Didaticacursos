@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 .areas_main {
     padding-top: 60px;
     display: block;
@@ -7,15 +8,16 @@
 }
 
 
-main,
-h2 {
-    font-size: 1.5em;
+main,h2 {
+    font-size: 1.3em;
+}
+
+#contcat{
+   margin-left: 7%;
 }
 
 .p_explore {
-    margin-left: 0;
-    padding-top: 20px;
-    padding-bottom: 25px;
+   padding-top: 15px;
 }
 
 #blocoareas_main {
@@ -24,12 +26,12 @@ h2 {
 }
 
 .cardarea_main {
-    width: 250px;
-    height: 200px;
-    display: inline-block;
-    margin: 10px;
+    display: inline-block; 
     justify-content: center;
     align-items: center;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
     border-radius: 15px;
     border: 1px dotted black;
     box-sizing: border-box;
@@ -53,30 +55,28 @@ h2 {
 }
 
 
-.cursospopu_main {
-    padding-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 #continicial {
     display: inline-block;
-    width: 1600px;
+    width: 1350px;
     padding: 50px;
+}
 
+.cursospopu_main {
+    width: 1665px;
 }
 
 .card {
-    width: 250px;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    font-size: small;
-    border-radius: 8px;
-    display: flex;
+    display: inline-block; 
     justify-content: center;
-    flex-direction: column;
-    margin: auto;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 5%;
+    border-radius: 8px;
+    font-size: smaller;
+    cursor: pointer;
+    box-sizing: border-box;
 }
 
 .card img {
@@ -96,24 +96,34 @@ h2 {
 }
 
 .btntdscursos {
-    display: inline-flex;
-    width: 140px;
-    height: 50px;
-    border-radius: 15px;
-    margin-left: 50%;
-    border: none;
-    cursor: pointer;
+   display: inline-flex;
+   align-items: center;
+   margin-top: -50px;
+   padding: 25px;
+   position: absolute;
+   width: 190px;
+   height: 50px;
+   border-radius: 15px;
+   margin-left: 59%;
+   border: none;
+   cursor: pointer; 
 }
 
 #beneficios {
-    margin-left: 35%;
-    margin-top: -400px;
+    display: flex;
+    flex-direction: column;
     font-size: medium;
-    margin-bottom: 80px;
+    width: 100%;
+    margin-top: -450px;
+    margin-left: 90%;
 }
 
 #beneficios p {
-    padding-top: 10px;
+    padding-top: 15px;
+}
+
+#beneficios ul li{
+    padding: 10px;
 }
 
 #beneficios ul li::before {
@@ -125,44 +135,43 @@ h2 {
 }
 
 #btnbeneficios {
-    width: 250px;
+    width: 200px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.432);
 }
 
 #imgestudos {
-    width: 500px;
+    width: 550px;
+    margin-left: 25%;
+    padding-top: 50px;
+}
+
+
+.cursosrecen_main {
+    width: 1500px;
+    margin: 50px;
+    
+
 }
 
 #contmaisrecentes {
-    width: 120px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
 }
 
-.cursosrecen_main {
-    width: auto;
-    height: auto;
-
-    padding: 20px;
-    margin-bottom: 120px;
-    background-color: blue;
-
-}
 
 .carddois {
-    width: 250px;
-    height: 200px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    font-size: small;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
+    display: inline-block; 
+    justify-content: center;
     align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.356);
 }
+
+
+
 
 #containerfeedbacks {
     margin-top: 420px;
