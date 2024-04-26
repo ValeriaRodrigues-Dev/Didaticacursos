@@ -148,27 +148,32 @@ main,h2 {
 
 .cursosrecen_main {
     display: inline-block;
-    width: 1580px; 
-    padding: 150px;
-    margin-left: -200px;
-    font-size: smaller;
+    width: 1400px; 
+   
+    margin-top: 25%;
+    
+}
+
+.cursosrecen_main p{
+    padding-top: 15px;
 }
 
 #contmaisrecentes {
-       margin-left: 8%;
-       font-size: smaller;
-
+       margin-left: 3%;
 }
 
 
 .carddois {
-        display: inline-block; 
-        justify-content: center;
-        align-items: center;
-        width: 200px;
-        margin: 10px;
-        border-radius: 8px;
-        box-sizing: border-box;
+    display: inline-block; 
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 5%;
+    border-radius: 8px;
+    font-size: smaller;
+    box-sizing: border-box;
 }
 
 .imgrecentes{
@@ -177,21 +182,29 @@ main,h2 {
 }
 
 
-
-#containerfeedbacks {
-    display: flex; 
- 
-
-}
-
 .feddbackdiv {
-   
+    display: inline-block;
+    width: 1600px; 
+    padding: 150px;
+
 }
 
-/* .cardtres{
-  width: 350px;
-  height: 500px;
-  margin: 15px;
-  border: 2px solid black;
-} */
+.cardtres{
+    display: inline-block; 
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+    height: 230px;
+    padding: 20px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.486);
+    border-radius: 8px;
+    font-size: smaller;
+    box-sizing: border-box;
+}
+
+.cardtres p{
+    padding-top: 15px;
+}
+
+
 

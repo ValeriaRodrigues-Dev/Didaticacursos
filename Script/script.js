@@ -94,6 +94,8 @@
                         textoaluno.textContent = curso.texto;
                         const nomealuno = document.createElement("p");
                         nomealuno.textContent = curso.nome;
+                        const profissaoaluno = document.createElement("p");
+                        profissaoaluno.textContent = curso.profissao;
                         
             
             
@@ -102,6 +104,7 @@
                         cardf.appendChild(titulofeedback);
                         cardf.appendChild(textoaluno);
                         cardf.appendChild(nomealuno);
+                        cardf.appendChild(profissaoaluno);
                         contfeed.appendChild(cardf);
                     });
                 })
