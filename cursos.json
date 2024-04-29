@@ -71,5 +71,30 @@
       "nome": "Ana Beatriz",
       "profissao": "Gerente de Projetos"
     }
+  ],
+
+  "artigos": [
+    {
+      "categoria": "Tecnologia",
+      "titulo": "Avanços em Inteligência Artificial em 2024",
+      "data_publicacao": "2024-04-25",
+      "descricao": "O artigo explora os recentes desenvolvimentos e aplicações de inteligência artificial, destacando inovações significativas e seu impacto em diversos setores.",
+      "caminho_img": "caminho/para/imagem/tecnologia.jpg"
+    },
+    {
+      "categoria": "Educacao",
+      "titulo": "Reformas Educacionais: Novas Diretrizes para o Ensino Fundamental",
+      "data_publicacao": "2024-04-20",
+      "descricao": "Este artigo discute as últimas mudanças nas políticas educacionais brasileiras, focando nas novas diretrizes curriculares para o ensino fundamental visando melhorar a qualidade da educação.",
+      "caminho_img": "caminho/para/imagem/educacao.jpg"
+    },
+    {
+      "categoria": "Mercado de Trabalho",
+      "titulo": "Tendências do Mercado de Trabalho para 2024",
+      "data_publicacao": "2024-04-18",
+      "descricao": "Análise das tendências emergentes no mercado de trabalho, incluindo as profissões em alta, a influência da tecnologia e as mudanças nas exigências de habilidades profissionais.",
+      "caminho_img": "caminho/para/imagem/mercado_de_trabalho.jpg"
+    }
   ]
 }
+

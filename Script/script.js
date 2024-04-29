@@ -34,7 +34,7 @@
             }
             
 
-            loadcursosmaisprocurados() 
+            loadcursosmaisprocurados(); 
 
 
 
@@ -84,23 +84,19 @@
                 .then(data => { 
                     const contfeed = document.getElementById('containerfeedbacks');
                     const todososfeedbacks = [...data.feedbacks];
-                    todososfeedbacks.forEach(curso => {
+                    todososfeedbacks.forEach(feedback => {
                         const cardf = document.createElement("div");
                         cardf.classList.add("cardtres");
             
                         const titulofeedback = document.createElement("h2");
-                        titulofeedback.textContent = curso.titulo;
+                        titulofeedback.textContent = feedback.titulo;
                         const textoaluno = document.createElement("p");
-                        textoaluno.textContent = curso.texto;
+                        textoaluno.textContent = feedback.texto;
                         const nomealuno = document.createElement("p");
-                        nomealuno.textContent = curso.nome;
+                        nomealuno.textContent = feedback.nome;
                         const profissaoaluno = document.createElement("p");
-                        profissaoaluno.textContent = curso.profissao;
+                        profissaoaluno.textContent = feedback.profissao;
                         
-            
-            
-                    
-            
                         cardf.appendChild(titulofeedback);
                         cardf.appendChild(textoaluno);
                         cardf.appendChild(nomealuno);
@@ -111,4 +107,48 @@
                 .catch(error => console.error('Erro ao carregar o arquivo!', error));
             }
             
-            loadfeedbackalunos()
+            loadfeedbackalunos();
+
+            function artigoBlogsDidatica() {
+                fetch('cursos.json')
+                .then(response => response.json())
+                .then(data => {
+                    const contartigos = document.getElementById('container_artigos');
+                    data.artigos.forEach(artigo => {
+                        const cardartigo = document.createElement("div");
+                        cardartigo.classList.add("cardquatro");
+            
+                        const imgartigo = document.createElement("img");
+                        imgartigo.classList.add("imgartigo");
+                        imgartigo.src = artigo.caminho_img;
+                        imgartigo.alt = artigo.titulo;
+            
+                        const categoriaartigo = document.createElement("h2");
+                        categoriaartigo.textContent = artigo.categoria;
+            
+                        const tituloartigo = document.createElement("h3");
+                        tituloartigo.textContent = artigo.titulo;
+            
+                        const dateartigo = document.createElement("p");
+                        dateartigo.textContent = artigo.data_publicacao; // Corrected property name
+            
+                        const descartigo = document.createElement("p");
+                        descartigo.textContent = artigo.descricao;
+            
+                       
+                        cardartigo.appendChild(imgartigo);
+                        cardartigo.appendChild(categoriaartigo);
+                        cardartigo.appendChild(tituloartigo);
+                        cardartigo.appendChild(dateartigo);
+                        cardartigo.appendChild(descartigo);
+            
+                        contartigos.appendChild(cardartigo);
+                    });
+                })
+                .catch(error => console.error('Erro ao carregar o arquivo!', error));
+            }
+            
+            artigoBlogsDidatica();
+            
+
+            artigoblogsdidatica();

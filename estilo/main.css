@@ -149,9 +149,7 @@ main,h2 {
 .cursosrecen_main {
     display: inline-block;
     width: 1400px; 
-   
-    margin-top: 25%;
-    
+    margin-top: 25%; 
 }
 
 .cursosrecen_main p{
@@ -161,7 +159,6 @@ main,h2 {
 #contmaisrecentes {
        margin-left: 3%;
 }
-
 
 .carddois {
     display: inline-block; 
@@ -177,34 +174,60 @@ main,h2 {
 }
 
 .imgrecentes{
+ 
     width: 200px;
-    height: 200px;
+    height: 100%;
 }
 
 
 .feddbackdiv {
-    display: inline-block;
-    width: 1600px; 
-    padding: 150px;
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+   
 }
 
-.cardtres{
-    display: inline-block; 
+#titlefeed{
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 315px;
-    height: 230px;
-    padding: 20px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.486);
-    border-radius: 8px;
-    font-size: smaller;
-    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-top: 25%;
+    margin-left: 55%;
+    width: 500px;
 }
+
 
 .cardtres p{
     padding-top: 15px;
 }
 
 
+.cardtres {
+    text-indent: 50em;
+    width: 750px;; 
+    height: 300px; 
+    padding: 25px;
+    margin: 10px; 
+    border-radius: 8px;
+    font-size: smaller;
+    box-shadow: 2px 3px 4px black;
+    box-sizing: border-box; 
+}
 
+
+
+
+.carquartro{
+    text-indent: 50em;
+    width: 750px;; 
+    height: 300px; 
+    padding: 25px;
+    margin: 10px; 
+    border-radius: 8px;
+    font-size: smaller;
+    box-shadow: 2px 3px 4px black;
+    box-sizing: border-box; 
+}
