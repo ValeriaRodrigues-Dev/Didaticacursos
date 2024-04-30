@@ -13,6 +13,7 @@
                         const img = document.createElement("img");
                         img.src = curso.imagem;
                         img.alt = curso.nome;
+                        img.classList.add("imgpopu");
             
                         const titulo = document.createElement("h2");
                         titulo.textContent = curso.nome;
@@ -51,9 +52,9 @@
                     carddois.classList.add("carddois");
         
                     const img = document.createElement("img");
-                    img.classList.add("igmrecentes");
                     img.src = curso.imagem;
                     img.alt = curso.nome;
+                    img.classList.add("imgpopu");
                    
         
                     const titulo = document.createElement("h2");
@@ -92,9 +93,9 @@
                         titulofeedback.textContent = feedback.titulo;
                         const textoaluno = document.createElement("p");
                         textoaluno.textContent = feedback.texto;
-                        const nomealuno = document.createElement("p");
+                        const nomealuno = document.createElement("h3");
                         nomealuno.textContent = feedback.nome;
-                        const profissaoaluno = document.createElement("p");
+                        const profissaoaluno = document.createElement("h3");
                         profissaoaluno.textContent = feedback.profissao;
                         
                         cardf.appendChild(titulofeedback);
@@ -122,14 +123,15 @@
                         imgartigo.classList.add("imgartigo");
                         imgartigo.src = artigo.caminho_img;
                         imgartigo.alt = artigo.titulo;
+                        imgartigo.classList.add("imgpopu");
             
                         const categoriaartigo = document.createElement("h2");
                         categoriaartigo.textContent = artigo.categoria;
             
-                        const tituloartigo = document.createElement("h3");
+                        const tituloartigo = document.createElement("h2");
                         tituloartigo.textContent = artigo.titulo;
             
-                        const dateartigo = document.createElement("p");
+                        const dateartigo = document.createElement("h5");
                         dateartigo.textContent = artigo.data_publicacao; // Corrected property name
             
                         const descartigo = document.createElement("p");
@@ -149,6 +151,4 @@
             }
             
             artigoBlogsDidatica();
-            
-
-            artigoblogsdidatica();
+          

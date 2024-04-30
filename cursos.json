@@ -7,12 +7,6 @@
       "imagem": "imgs/imgjson/devweb.jpg"
     },
     {
-      "nome": "Ciência de Dados",
-      "descricao": "Aprenda a extrair, analisar e visualizar dados para obter insights valiosos e tomar decisões embasadas.",
-      "custoMensal": "$200",
-      "imagem": "imgs/imgjson/cienciadedados.png"
-    },
-    {
       "nome": "Machine Learning",
       "descricao": "Explore algoritmos de machine learning para criar modelos preditivos e automatizar processos de decisão.",
       "custoMensal": "$250",
@@ -20,21 +14,27 @@
     },
     {
       "nome": "Desenvolvimento Mobile",
-      "descricao": "Desenvolva aplicativos para dispositivos móveis iOS e Android utilizando frameworks populares como React Native e Flutter.",
+      "descricao": "Desenvolva aplicativos para dispositivos móveis iOS e Android com frameworks populares como React Native e Flutter.",
       "custoMensal": "$180",
       "imagem": "imgs/imgjson/desenvolvimentmobile.jpg"
+    },
+    {
+      "nome": "Ciência de Dados",
+      "descricao": "Aprenda a extrair, analisar e visualizar dados para obter insights valiosos e tomar decisões embasadas.",
+      "custoMensal": "$200",
+      "imagem": "imgs/imgjson/cienciadedados.png"
     }
   ],
   "cursosMaisRecentes": [
     {
       "nome": "Blockchain e Criptomoedas",
-      "descricao": "Explore a tecnologia blockchain e aprenda sobre criptomoedas como Bitcoin e Ethereum.",
+      "descricao": "Explore a tecnologia blockchain e aprenda sobre criptomoedas como Bitcoin e Ethereum e várias outras.",
       "custoMensal": "$220",
       "imagem": "imgs/imgjson/criptomoeda.jpeg"
     },
     {
-      "nome": "Análise de Dados para E-commerce",
-      "descricao": "foco em otimizar operações, entender o comportamento dos consumidores, e maximizar as estratégias de marketing digital.",
+      "nome": "Análise de Dados de E-commerce",
+      "descricao": "Otimizar operações,o comportamento dos consumidores, maximizar as estratégias de marketing digital.",
       "custoMensal": "$230",
       "imagem": "imgs/imgjson/analisededadosmini.jpeg"
     },
@@ -43,6 +43,12 @@
       "descricao": "Aprenda a proteger sistemas de computadores e redes contra ataques cibernéticos e violações de dados.",
       "custoMensal": "$190",
       "imagem": "imgs/imgjson/segurancadainformacaomini.jpeg"
+    },
+    {
+      "nome": "Artes Visuais",
+      "descricao": "Mergulhe no mundo da criatividade, cores e oferecimento de habilidades para expressar as suas ideias através de várias mídias artísticas.",
+      "custoMensal": "$129",
+      "imagem": "imgs/imgjson/ArtesVisuais.webp"
     }
   ],
 
@@ -77,23 +83,23 @@
     {
       "categoria": "Tecnologia",
       "titulo": "Avanços em Inteligência Artificial em 2024",
-      "data_publicacao": "2024-04-25",
+      "data_publicacao": "25/04/2024",
       "descricao": "O artigo explora os recentes desenvolvimentos e aplicações de inteligência artificial, destacando inovações significativas e seu impacto em diversos setores.",
-      "caminho_img": "caminho/para/imagem/tecnologia.jpg"
+      "caminho_img": "imgs/imgjson/ia2024.jpg"
     },
     {
-      "categoria": "Educacao",
-      "titulo": "Reformas Educacionais: Novas Diretrizes para o Ensino Fundamental",
-      "data_publicacao": "2024-04-20",
-      "descricao": "Este artigo discute as últimas mudanças nas políticas educacionais brasileiras, focando nas novas diretrizes curriculares para o ensino fundamental visando melhorar a qualidade da educação.",
-      "caminho_img": "caminho/para/imagem/educacao.jpg"
+      "categoria": "Educação",
+      "titulo": "Novas Diretrizes para o Ensino Fundamental",
+      "data_publicacao": "20/04/2024",
+      "descricao": "As últimas mudanças nas políticas educacionais brasileiras, focando nas novas diretrizes curriculares para o ensino fundamental visando melhorar a qualidade da educação.",
+      "caminho_img": "imgs/imgjson/reformaeducacional.jpg"
     },
     {
       "categoria": "Mercado de Trabalho",
       "titulo": "Tendências do Mercado de Trabalho para 2024",
-      "data_publicacao": "2024-04-18",
+      "data_publicacao": "08/04/2024",
       "descricao": "Análise das tendências emergentes no mercado de trabalho, incluindo as profissões em alta, a influência da tecnologia e as mudanças nas exigências de habilidades profissionais.",
-      "caminho_img": "caminho/para/imagem/mercado_de_trabalho.jpg"
+      "caminho_img": "imgs/imgjson/tendenciasmercadodetrabalho.jpg"
     }
   ]
 }
