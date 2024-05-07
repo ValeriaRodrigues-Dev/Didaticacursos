@@ -8,13 +8,14 @@
 }
 
 
-main,h2 {
+main,
+h2 {
     font-size: 1.3em;
 }
 
 
 .p_explore {
-   padding-top: 15px;
+    padding-top: 15px;
 }
 
 #blocoareas_main {
@@ -23,7 +24,7 @@ main,h2 {
 }
 
 .cardarea_main {
-    display: inline-block; 
+    display: inline-block;
     justify-content: center;
     align-items: center;
     width: 250px;
@@ -40,6 +41,7 @@ main,h2 {
     font-weight: bolder;
     border: none;
     background-color: rgba(0, 0, 0, 0.13);
+    box-shadow: 10px 15px 7px  rgba(0, 0, 0, 0.267);
 
 }
 
@@ -52,45 +54,41 @@ main,h2 {
 }
 
 
-#contcat, #continicial, #contmaisrecentes, #introartigos{
+#contcat,
+#continicial,
+#contmaisrecentes,
+#introartigos {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
     padding-top: 5%;
+    margin-bottom: 2%;
 }
 
-.imgpopu{
+.imgpopu {
     width: 300px;
     height: 150px;
     border-radius: 10px;
     margin-bottom: 5px;
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.658)
 }
-.card,.carddois, .cardtres, .cardquatro,h2 {
-    padding-top: 5px;
-}
-
- .card,.carddois, .cardtres, .cardquatro, p {
-    text-align: left;  
-}
 
 .btntdscursos {
-   display: inline-flex;
-   align-items: center;
-   margin-top: -50px;
-   padding: 25px;
-   position: absolute;
-   width: 190px;
-   height: 50px;
-   border-radius: 15px;
-   margin-left: 59%;
-   border: none;
-   cursor: pointer; 
+    display: inline-flex;
+    align-items: center;
+    padding: 25px;
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 59%;
+    border: none;
+    cursor: pointer;
 }
 
-#container_educacao{
-     display: flex;
+#container_educacao {
+    display: flex;
 }
 
 #beneficios {
@@ -106,7 +104,7 @@ main,h2 {
     padding-top: 15px;
 }
 
-#beneficios ul li{
+#beneficios ul li {
     padding: 10px;
 }
 
@@ -130,27 +128,31 @@ main,h2 {
 }
 
 
-.card, .carddois, .cardtres, .cardquatro {
-    display: inline-block; 
+.card,
+.carddois,
+.cardtres,
+.cardquatro {
+    display: inline-block;
     justify-content: center;
     align-items: center;
-   width: 278px;
-   height: 100px;
-   margin-right: 5%;
+    width: 300px;
+    height: 100px;
+    margin-right: 4%;
     border-radius: 8px;
     font-size: smaller;
     cursor: pointer;
     box-sizing: border-box;
 }
 
-.carddois{
+.carddois {
     height: 300px;
-    width: 350px;
-    margin-right: 0; 
+    width: 325px;
+    margin-right: 2%;
+
 }
 
-#bloco_feedback{
-    display: inline-block; 
+#bloco_feedback {
+    display: inline-block;
     justify-content: center;
     align-items: center;
     width: 250px;
@@ -161,49 +163,47 @@ main,h2 {
     box-sizing: border-box;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.356);
 }
- #titlefeed {
+
+#titlefeed {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 100px 50px 50px 50px;
 }
- 
-.cardtres{
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+.cardtres {
     width: 300px;
     height: 350px;
     margin: 10px;
     padding: 25px;
+    margin-left: 2%;
     border-radius: 15px;
-    border: 1px dotted black;
     box-sizing: border-box;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.356);
-    background: rgba(255, 255, 255, 0.5);
-   border-radius: 15px;
-   border-top:  1px solid rgba(255,255,255, 0.5);
-   border-left:  1px solid rgba(255,255,255, 0.5);
-   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);  
+    background: rgba(255, 255, 255, 0.651);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 
- #cardtres, h2,h3, p {
-     padding: 5px;
-    
+#cardtres,
+h2,
+h3,
+p {
+    padding: 5px;
+
 }
 
-
-
-
-.cardtres, p {
+.cardtres,
+p {
     padding-top: 20px;
 
 }
- 
-.imgpopu{
+
+.imgpopu {
     width: 300px;
     height: 150px;
     border-radius: 10px;
@@ -212,25 +212,29 @@ main,h2 {
 }
 
 
-.cardquatro{
-  height: 355px;
-  width: 320px;
-  padding: 10px;
-  margin-left: 10%;
- margin-right: -50px;
-  border: 2px dashed rgba(0, 0, 0, 0.493);
+.cardquatro {
+    height: 355px;
+    width: 320px;
+    padding: 10px;
+    margin-left: 6%;
+    margin-right: 0;
+    margin-top: 20px;
+    border: 2px dashed rgba(0, 0, 0, 0.205);
+    border-bottom: none;
 }
 
-.cardquatro p{
+.cardquatro p {
     background-color: darkgrey;
     width: 324px;
     margin: -15px;
     padding-top: 20px;
+    padding: 15px;
     font-weight: bold;
     border-radius: 0px 0px 15px 15px;
 }
 
-.cardquatro h2,h5{
+.cardquatro h2,
+h5 {
     padding: 5px;
     padding-bottom: 25px;
 }

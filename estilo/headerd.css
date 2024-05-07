@@ -106,7 +106,7 @@ body{
 
 #jovem_apre {
     margin-left: 40%;
-    margin-top: -23%;
+    margin-top: -21.6%;
     max-height: 64%;
     width: 300px;
     position: absolute;
@@ -122,4 +122,8 @@ body{
 
 #btn_apre {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.329)
+}
+
+.btntdscursos{
+   display: none;
 }
