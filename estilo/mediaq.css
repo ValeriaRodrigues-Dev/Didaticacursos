@@ -274,7 +274,11 @@ footer p {
 
 @media only screen and (max-width: 365px) {
     body {
-        background-color: lightblue;
+      font-size: 1em;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
     }
     
     h1 {
