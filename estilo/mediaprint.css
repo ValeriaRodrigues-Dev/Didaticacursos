@@ -272,30 +272,6 @@ footer p {
 
 
 
-@media only screen and (max-width: 365px) {
-    body {
-      font-size: 1em;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-    }
-    
-    h1 {
-        font-size: 20px;
-    }
-
-    .container {
-        padding: 10px;
-    }
-}
-
-
-@media only screen and (min-width: 760px) {
-    
-}
-
-
 
 
 
